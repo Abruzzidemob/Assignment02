@@ -4,31 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+    .blue-text{
+        color: yellow;
+        background-color: palevioletred;
+    }
+    .blue-text:hover{
+        color: blue;
+        background-color: white;
+    }
+    h1{
+        color: aquamarine;
+        background-image: -moz-repeating-linear-gradient();
+        }
+    h1:hover{
+        color: brown;
+        background-color: blanchedalmond;
+    }
+    div{
+        padding: 30px;
+        border: 10px solid rgb(216, 241, 19);
+        border-radius: 200px;
+        margin: 50px;
+        text-align: left;
+
+    }
+    </style>
 </head>
-<body>
-    <h1><b>Start your tech journey with Netisens</b></h1>
-   <form>
-    <input type="radio" id="frontend web development" name="color" checked>
-    <label for="frontend web development">frontend web development</label><br>
-    <input type="radio" id="Backend web development" name="color">
-    <label for="Backend web development">frontend web development</label><br>
-    <input type="radio" id="Mobile app development" name="color">
-    <label for="Mobile app development">Mobile app development</label><br>
-    <input type="radio" id="Fullstack web development" name="color">
-    <label for="Fullstack web development">Fullstack web development</label><br>
-    <input type="radio" id="Video editing" name="color">
-    <label for="Video editing">Video editing</label><br>
-    <input type="radio" id="Graphics design" name="color">
-    <label for="Graphics design">Graphics design</label><br>
-    <input type="radio" id="Content creation" name="color">
-    <label for="Content creation">Content creation</label><br>
-    <input type="radio" id="UI/UX design" name="color">
-    <label for="UI/UX design">UI/UX design</label><br>
-    <input type="radio" id="Data analysis" name="color">
-    <label for="Data analysis">Data analysis</label><br>
-    <input type="radio" id= "Machine learning/ AI" name="color">
-    <label for="Machine learning/AI">Machine learning/ AI</label><br>
-    <button>Click here</button>
+<body style="background-color: antiquewhite;">
+    
+    <div style="border-radius: 30px;">
+        <button><h1><b>Start your tech journey with Netisens</b></h1></button>
+        <form>
+         <input type="radio" id="frontend web development" name="color" checked>
+         <label for="frontend web development"  class="blue-text">frontend web development</label><br>
+         <input type="radio" id="Backend web development" name="color">
+         <label for="Backend web development" class="blue-text">frontend web development</label><br>
+         <input type="radio" id="Mobile app development" name="color">
+         <label for="Mobile app development" class="blue-text">Mobile app development</label><br>
+         <input type="radio" id="Fullstack web development" name="color">
+         <label for="Fullstack web development" class="blue-text">Fullstack web development</label><br>
+         <input type="radio" id="Video editing" name="color">
+         <label for="Video editing" class="blue-text">Video editing</label><br>
+         <input type="radio" id="Graphics design" name="color">
+         <label for="Graphics design" class="blue-text" class="dotted">Graphics design</label><br>
+         <input type="radio" id="Content creation" name="color">
+         <label for="Content creation" class="blue-text">Content creation</label><br>
+         <input type="radio" id="UI/UX design" name="color">
+         <label for="UI/UX design" class="blue-text">UI/UX design</label><br>
+         <input type="radio" id="Data analysis" name="color">
+         <label for="Data analysis" class="blue-text">Data analysis</label><br>
+         <input type="radio" id="Machine learning/ AI" name="color">
+         <label for="Machine learning/AI" class="blue-text">Machine learning/ AI</label><br>
+         <button class="blue-text">Click here</button>
+    </div>
    
    
     
@@ -37,28 +66,45 @@
     </form>
 
     <br>
-    <label for="name" style="color: blueviolet;">Enter your name:</label>
-   <input type="text" placeholder="Enter your name" id="name"><br>
-   
-   <label for="Number" style="color: blueviolet;">Enter your phone number</label>
-   <input type="number" placeholder="number" id="Number"><br>
-   
-   <label for="Email" style="color: blueviolet;">Enter your email adress</label>
-   <input type="Email" placeholder="Email" id="Email"><br>
-   
-   <label for="address" style="color: blueviolet;">Home Address</label>
-   <input type="address" placeholder="Home address" id="address"><br>
-   
-   <label for="Text" style="color: blueviolet;">Enter your city</label>
-   <input type="Text" placeholder="Enter your city" id="Text"><br>
-   
-   <label for="State" style="color: blueviolet;">State of origin</label>
-   <input type="Text" placeholder="Enter your state of origin" id="State"><br>
-   
-   
-   <input textarea="" placeholder="How did you know about us?" style="resize: none;"></textarea><br>
-   <button>Click here</button><br>
-   </form>
+    <div style="border-radius: 50px;" style="background-color: magenta;">
+        <label for="name" style="color: blueviolet;">Enter your name:</label>
+        <input type="text" placeholder="Enter your name" id="name"><br>
+        
+        <label for="Number" style="color: blueviolet;">Enter your phone number</label>
+        <input type="number" placeholder="number" id="Number"><br>
+        
+        <label for="Email" style="color: blueviolet;">Enter your email adress</label>
+        <input type="Email" placeholder="Email" id="Email"><br>
+        
+        <label for="address" style="color: blueviolet;">Home Address</label>
+        <input type="address" placeholder="Home address" id="address"><br>
+        
+        <label for="Text" style="color: blueviolet;">Enter your city</label>
+        <input type="Text" placeholder="Enter your city" id="Text"><br>
+        
+        <label for="State" style="color: blueviolet;">State of origin</label>
+        <input type="Text" placeholder="Enter your state of origin" id="State"><br>
+        
+        
+        <input textarea="" placeholder="How did you know about us?" style="resize: none;"></textarea><br>
+        <button style="color: brown;">Click here</button><br>
+        </form>
+     
+    </div>
+   <section>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <div>
+        My Box 1
+    </div>
+    <div>
+        My Box 2
+    </div>
+    <div>
+        My Box 3
+    </div>
+    <p>Lorem ipsum dolor sit amet.</p>
+</section>
+
     
 </body>
 </html>
